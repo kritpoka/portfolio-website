@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import React from 'react';
+import LeftTabsExample from './tabsLayout';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -22,6 +23,7 @@ function MyVerticallyCenteredModal(props) {
           dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
           consectetur ac, vestibulum at eros.
         </p>
+        <LeftTabsExample/>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
@@ -36,7 +38,7 @@ function AppShow() {
   return (
     <>
       <Button variant="primary" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
+        More Details
       </Button>
 
       <MyVerticallyCenteredModal

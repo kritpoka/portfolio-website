@@ -10,7 +10,7 @@ function OffCanvasExample({ name, ...props }) {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow} className="me-2">
+      <Button variant="none" onClick={handleShow} className="me-2">
         {name}
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
@@ -26,14 +26,14 @@ function OffCanvasExample({ name, ...props }) {
   );
 }
 
-function Example() {
+function ExampleOffcanvas() {
   return (
     <>
-      {['start', 'end', 'top', 'bottom'].map((placement, idx) => (
+      {['bottom'].map((placement, idx) => (
         <OffCanvasExample key={idx} placement={placement} name={placement} />
       ))}
     </>
   );
-}
+};
 
-export default Example;
+export default ExampleOffcanvas;

@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './header'
+import './header';
 
 function CollapsibleExample() {
   return (
@@ -10,7 +10,7 @@ function CollapsibleExample() {
         <Navbar.Brand href="#home">KRIT POKA</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto" variant="pills">
+          <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#hobby">Hobby</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
