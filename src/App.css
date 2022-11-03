@@ -1,5 +1,7 @@
+.App{
+  background-color: #F5F5F7;
+}
 .app-grid{
   padding: 100px 30px;
   display: block;
-  background-color: #f5f5f7;
 }

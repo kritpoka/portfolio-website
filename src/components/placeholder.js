@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Placeholder from 'react-bootstrap/Placeholder';
 
-function CardExample() {
+function PlaceHolder() {
   return (
     <div className="d-flex justify-content-around">
       <Card style={{ width: '18rem' }}>
@@ -34,4 +34,4 @@ function CardExample() {
   );
 }
 
-export default CardExample;
+export default PlaceHolder;

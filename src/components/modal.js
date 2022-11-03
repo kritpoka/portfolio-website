@@ -1,9 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import React from 'react';
-import LeftTabsExample from './tabsLayout';
+import AccordionCollape from './accordion';
+import { Image } from 'react-bootstrap';
 
-function MyVerticallyCenteredModal(props) {
+function ModalsPopup(props) {
   return (
     <Modal
       {...props}
@@ -23,7 +24,8 @@ function MyVerticallyCenteredModal(props) {
           dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
           consectetur ac, vestibulum at eros.
         </p>
-        <LeftTabsExample/>
+        <Image fluid="true" rounded="true" src="https://images.unsplash.com/photo-1661956601031-4cf09efadfce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80"/>
+        <AccordionCollape/>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
@@ -32,7 +34,7 @@ function MyVerticallyCenteredModal(props) {
   );
 }
 
-function AppShow() {
+function AppShowModals() {
   const [modalShow, setModalShow] = React.useState(false);
 
   return (
@@ -41,7 +43,7 @@ function AppShow() {
         More Details
       </Button>
 
-      <MyVerticallyCenteredModal
+      <ModalsPopup
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
@@ -49,4 +51,4 @@ function AppShow() {
   );
 }
 
-export default AppShow;
+export default AppShowModals;

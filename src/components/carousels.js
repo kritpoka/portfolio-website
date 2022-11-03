@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-function CarouselFadeExample() {
+function Carousels() {
   return (
     <Carousel fade pause="hover" >
       <Carousel.Item>
@@ -44,4 +44,4 @@ function CarouselFadeExample() {
   );
 }
 
-export default CarouselFadeExample;
+export default Carousels;

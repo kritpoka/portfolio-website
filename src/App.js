@@ -1,15 +1,15 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import CollapsibleExample from './components/header';
+import Header from './components/header';
 import './data/hobbyData';
-import UncontrolledExample from './components/tabs';
+import Tabs from './components/tabs';
 
 function App() {
   return (
     <div className="App">
-      <CollapsibleExample />
+      <Header />
       <div className='app-grid'>
-        <UncontrolledExample/>
+        <Tabs/>
       </div>
     </div>
   );
