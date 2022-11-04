@@ -2,10 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './header';
+import Switch from './checkRadios';
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="md" bg="light" variant="light">
+    <Navbar collapseOnSelect expand="md" bg="light" variant="light" fixed="top">
       <Container>
         <Navbar.Brand href="#home">KRIT POKA</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -16,10 +17,7 @@ function Header() {
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Light Mode</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dark Mode
-            </Nav.Link>
+            <Switch/>
           </Nav>
         </Navbar.Collapse>
       </Container>

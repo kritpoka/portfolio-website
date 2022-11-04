@@ -5,10 +5,9 @@ import AppShowModals from './modal';
 
 function GridCard() {
   return (
-    <Row xs={1} md={3} className="g-4">
-      {Array.from({ length: 6 }).map((_, idx) => (
+    <Row className="g-4">
         <Col>
-          <Card border='none' class="card border-0">
+          <Card border='light'>
             <Card.Img variant="top" src="https://images.unsplash.com/photo-1661961110671-77b71b929d52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
@@ -21,7 +20,6 @@ function GridCard() {
             </Card.Body>
           </Card>
         </Col>
-      ))}
     </Row>
   );
 }
