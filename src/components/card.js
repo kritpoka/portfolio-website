@@ -3,12 +3,13 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import AppShowModals from './modal';
 
-function GridCard() {
+function GridCard(props) {
+  const {thumbnail} = props;
   return (
     <Row className="g-4">
         <Col>
           <Card border='light'>
-            <Card.Img variant="top" src="https://images.unsplash.com/photo-1661961110671-77b71b929d52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
+            <Card.Img variant="top" src={thumbnail} />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>

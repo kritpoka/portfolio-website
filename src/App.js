@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './components/header';
 import './data/hobbyData';
 import Tabs from './components/tabs';
-import { Image } from 'react-bootstrap';
 
 function App() {
   return (

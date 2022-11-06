@@ -18,9 +18,9 @@ function TabsDisplay() {
             <Tab eventKey="All" title="All">
                 <Container fluid="true">
                     <Row >
-                        <Col md><GridCard/></Col>
-                        <Col md><GridCard/></Col>
-                        <Col md><GridCard/></Col>
+                        <Col md><GridCard thumbnail = ""/></Col>
+                        <Col md><GridCard thumbnail = ""/></Col>
+                        <Col md><GridCard thumbnail = ""/></Col>
                     </Row>
                 </Container>
             </Tab>
