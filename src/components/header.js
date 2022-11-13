@@ -3,12 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './header';
 import Switch from './checkRadios';
+import Example from './alerts';
+
 
 function Header() {
   return (
     <Navbar collapseOnSelect expand="md" bg="light" variant="light" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">KRIT POKA</Navbar.Brand>
+        <Navbar.Brand href="#home">VEEDII</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -17,7 +19,8 @@ function Header() {
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Switch/>
+            <Nav.Link><Example/></Nav.Link>
+            <Nav.Link><Switch/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

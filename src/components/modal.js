@@ -23,7 +23,7 @@ function ModalsPopup(props) {
           dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
           consectetur ac, vestibulum at eros.
         </p>
-        <Image fluid="true" rounded="true" src="https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
+            <Image fluid="true" rounded="true" src=""/>
         <AccordionCollape/>
       </Modal.Body>
       <Modal.Footer>
@@ -38,7 +38,7 @@ function AppShowModals() {
 
   return (
     <>
-      <Button variant="primary"  onClick={() => setModalShow(true)} >
+      <Button variant="secondary"  onClick={() => setModalShow(true)} >
         More Details
       </Button>
 
