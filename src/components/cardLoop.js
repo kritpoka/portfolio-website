@@ -1,12 +1,13 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import AppShowModals from './modal';
 import thumbnailModal from '../data/thumbnailItem';
+import React from 'react';
+import AppShowModals from './modal';
 
 function CardLoop() {
   return (
-    <Row xs={1} sm={2} md={3} lg={4} className="g-4">
+    <Row xs={2} sm={3} md={4} lg={5} className="g-2">
       {thumbnailModal.map(({ thumbnail, title, text }) => (
         <Col>
           <Card border='light'>
@@ -16,7 +17,7 @@ function CardLoop() {
               <Card.Text>
                 {text}
               </Card.Text>
-              <AppShowModals thumbnails="https://cdn.pixabay.com/photo/2022/11/06/09/21/forest-7573541_960_720.jpg" />
+             <AppShowModals/>
             </Card.Body>
           </Card>
         </Col>

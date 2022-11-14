@@ -2,6 +2,11 @@
   background-color: #F5F5F7;
 }
 .app-grid{
-  padding: 100px 30px;
+  padding: 80px 30px;
+  display: block;
+}
+.app-content{
+  margin-top: 30px;
+  padding: 0px 30px;
   display: block;
 }

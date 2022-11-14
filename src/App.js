@@ -3,13 +3,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from './components/header';
 import './data/hobbyData';
 import Tabs from './components/tabs';
+import HeaderAndFooter from './components/headerFooter';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <div className='app-grid'>
-        <Tabs/>
+        <HeaderAndFooter/>
+      </div>
+      <div className='app-content'>
+      <Tabs/>
       </div>
     </div>
   );

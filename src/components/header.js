@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import './header';
 import Switch from './checkRadios';
 import Example from './alerts';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 
 function Header() {
@@ -15,13 +17,19 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#hobby">Hobby</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#hobby">Explore</Nav.Link>
           </Nav>
-          <Nav>
-            <Nav.Link><Example/></Nav.Link>
-            <Nav.Link><Switch/></Nav.Link>
-          </Nav>
+            <Form className="d-flex">
+              <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+              <Button variant="outline-success">Search</Button>
+            </Form>
+            <Example />
+            <Switch />
         </Navbar.Collapse>
       </Container>
     </Navbar>

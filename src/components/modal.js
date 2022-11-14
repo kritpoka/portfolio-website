@@ -13,18 +13,16 @@ function ModalsPopup(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
+          Name heading
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
+        <h4>section</h4>
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore and dolore magna aliqua
         </p>
-            <Image fluid="true" rounded="true" src=""/>
-        <AccordionCollape/>
+        <Image fluid="true" rounded="true" src="" />
+        <AccordionCollape />
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
@@ -38,7 +36,7 @@ function AppShowModals() {
 
   return (
     <>
-      <Button variant="secondary"  onClick={() => setModalShow(true)} >
+      <Button variant="secondary" onClick={() => setModalShow(true)} >
         More Details
       </Button>
 
