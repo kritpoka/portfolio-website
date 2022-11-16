@@ -1,14 +1,20 @@
-import Form from 'react-bootstrap/Form';
+import React, { useState } from 'react';
+import ToggleButton from 'react-bootstrap/ToggleButton';
 
 function Switch() {
+  const [checked, setChecked] = useState(false);
+
   return (
-    <Form>
-      <Form.Check
-        type="switch"
-        id="custom-switch"
-        label="mode"
-      />
-    </Form>
+      <ToggleButton
+        id="toggle-check"
+        type="checkbox"
+        variant="outline-primary"
+        checked={checked}
+        text = "dark"
+        onChange={(e) => setChecked(e.currentTarget.checked)}
+      >
+        mode
+      </ToggleButton>
   );
 }
 

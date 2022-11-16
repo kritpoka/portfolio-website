@@ -88,6 +88,51 @@ const thumbnailModal = [{
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 
 },
+{
+    thumbnail: "https://cdn.pixabay.com/photo/2022/10/19/01/02/woman-7531315_960_720.png",
+    title: "dumbdraws",
+    text: "Lorem ipsum dolor sit amet, consect",
+},
+{
+    thumbnail:"https://cdn.pixabay.com/photo/2022/10/24/15/04/color-7543677_640.jpg",
+    title:"",
+    text:"",
+},
+{
+    thumbnail:"https://cdn.pixabay.com/photo/2022/10/17/18/19/plant-7528416__340.jpg",
+    title:"",
+    text:"",
+},
+{
+    thumbnail:"https://cdn.pixabay.com/photo/2022/10/24/14/41/blackbird-7543630__340.jpg",
+    title:"",
+    text:"",
+},
+{
+    thumbnail:"https://cdn.pixabay.com/photo/2022/05/22/13/21/healthy-7213383_640.jpg",
+    title:"",
+    text:"",
+},
+{
+    thumbnail:"",
+    title:"",
+    text:"",
+},
+{
+    thumbnail:"",
+    title:"",
+    text:"",
+},
+{
+    thumbnail:"",
+    title:"",
+    text:"",
+},
+{
+    thumbnail:"",
+    title:"",
+    text:"",
+},
 ]
 
 export default thumbnailModal;
