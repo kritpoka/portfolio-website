@@ -4,6 +4,7 @@ import Header from './components/header';
 import './data/hobbyData';
 import Tabs from './components/tabs';
 import HeaderAndFooter from './components/headerFooter';
+import Carousels from './components/carousels';
 
 function App() {
   return (

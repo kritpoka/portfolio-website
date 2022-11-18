@@ -7,12 +7,12 @@ function HeaderAndFooter() {
     <Card className="text-center">
       <Card.Header>Featured</Card.Header>
       <Card.Body>
-        <Card.Title>Special content</Card.Title>
+        <Card.Title>reccomended times</Card.Title>
         <Card.Text>
         special content that made for you.
         </Card.Text>
         <Carousels/>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">click here to see trend</Button>
       </Card.Body>
       <Card.Footer className="text-muted">2 days ago</Card.Footer>
     </Card>

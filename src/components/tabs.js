@@ -11,6 +11,7 @@ function TabsDisplay() {
             className="mb-3"
             variant='pills'
             unmountOnExit="true"
+            fill
         >
             <Tab eventKey="trend" title="trend">
                 <CardLoop />
