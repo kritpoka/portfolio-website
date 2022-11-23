@@ -89,47 +89,37 @@ const thumbnailModal = [{
 
 },
 {
-    thumbnail: "https://cdn.pixabay.com/photo/2022/10/19/01/02/woman-7531315_960_720.png",
-    title: "dumbdraws",
-    text: "Lorem ipsum dolor sit amet, consect",
-},
-{
-    thumbnail:"https://cdn.pixabay.com/photo/2022/10/24/15/04/color-7543677_640.jpg",
-    title:"",
-    text:"",
-},
-{
-    thumbnail:"https://cdn.pixabay.com/photo/2022/10/17/18/19/plant-7528416__340.jpg",
-    title:"",
-    text:"",
-},
-{
     thumbnail:"https://cdn.pixabay.com/photo/2022/10/24/14/41/blackbird-7543630__340.jpg",
     title:"",
     text:"",
 },
 {
-    thumbnail:"https://cdn.pixabay.com/photo/2022/05/22/13/21/healthy-7213383_640.jpg",
+    thumbnail:"https://cdn.pixabay.com/photo/2022/10/02/15/42/sunrise-7493833_960_720.jpg",
     title:"",
     text:"",
 },
 {
-    thumbnail:"",
+    thumbnail:"https://cdn.pixabay.com/photo/2022/06/13/15/33/leaf-7260246_960_720.jpg",
     title:"",
     text:"",
 },
 {
-    thumbnail:"",
+    thumbnail:"https://cdn.pixabay.com/photo/2022/10/24/18/10/street-7544046_960_720.jpg",
     title:"",
     text:"",
 },
 {
-    thumbnail:"",
+    thumbnail:"https://cdn.pixabay.com/photo/2022/10/21/08/39/cat-7536508__340.jpg",
     title:"",
     text:"",
 },
 {
-    thumbnail:"",
+    thumbnail:"https://cdn.pixabay.com/photo/2022/11/12/11/52/bird-7586857__340.jpg",
+    title:"",
+    text:"",
+},
+{
+    thumbnail:"https://cdn.pixabay.com/photo/2022/10/16/19/39/teacup-7526022__340.jpg",
     title:"",
     text:"",
 },
