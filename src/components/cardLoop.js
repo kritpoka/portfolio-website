@@ -46,7 +46,7 @@ function CardLoop() {
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
-    <Row xs={2} sm={2} md={3} lg={4} className="g-2">
+    <Row xs={1} sm={2} md={3} lg={4} className="g-3">
       {thumbnailModal.map(({ thumbnail, title, text }) => (
         <Col>
         <Image src={thumbnail} onClick={() => setModalShow(true)} rounded="true" fluid="true" />

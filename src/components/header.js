@@ -6,13 +6,22 @@ import Switch from './check';
 import Example from './alerts';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
 
 
 function Header() {
   return (
     <Navbar collapseOnSelect expand="md" bg="light" variant="light" fixed="top">
       <Container>
-        <Navbar.Brand href="#home">VEEDII</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <Image
+              src="./black-logo.svg" 
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            />
+            </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

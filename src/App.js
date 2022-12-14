@@ -4,19 +4,26 @@ import Header from './components/header';
 import './data/hobbyData';
 import Tabs from './components/tabs';
 import HeaderAndFooter from './components/headerFooter';
-import Carousels from './components/carousels';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <div className='app-grid'>
-        <HeaderAndFooter/>
-      </div>
-      <div className='app-content'>
-      <Tabs/>
-      </div>
-    </div>
+    <Row>
+      <Col>
+        <div className="App">
+          <Header />
+          <div className='app-grid'>
+            <HeaderAndFooter />
+          </div>
+          <div className='app-content'>
+            <Tabs />
+          </div>
+        </div>
+      </Col>
+      <Col>test</Col>
+    </Row>
+
   );
 }
 
