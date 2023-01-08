@@ -1,41 +1,22 @@
-import { useState, useEffect } from "react";
-import { Col, Row, Alert } from "react-bootstrap";
+import { useState,} from "react";
+import { Col, Row,} from "react-bootstrap";
 
-export const Newsletter = ({ status, message, onValidated }) => {
-  const [email, setEmail] = useState('');
+export const Newsletter = () => {
+  const [char, setChar] = useState('');
 
-  useEffect(() => {
-    if (status === 'success') clearFields();
-  }, [status])
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    email &&
-    email.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: email
-    })
-  }
-
-  const clearFields = () => {
-    setEmail('');
-  }
 
   return (
       <Col lg={12}>
         <div className="newsletter-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={5}>
-              <h3>Subscribe to our Newsletter<br></br> & Never miss latest updates</h3>
-              {status === 'sending' && <Alert>Sending...</Alert>}
-              {status === 'error' && <Alert variant="danger">{message}</Alert>}
-              {status === 'success' && <Alert variant="success">{message}</Alert>}
+              <h3>send a comment<br></br> & criticism</h3>
             </Col>
             <Col md={6} xl={7}>
-              <form onSubmit={handleSubmit}>
+              <form>
                 <div className="new-email-bx">
-                  <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                  <button type="submit">Submit</button>
+                  <input value={char} type="" onChange={(e) => setChar(e.target.value)} placeholder="message" />
+                  <button type="submit">send</button>
                 </div>
               </form>
             </Col>
@@ -44,4 +25,3 @@ export const Newsletter = ({ status, message, onValidated }) => {
       </Col>
   )
 }
-export default Newsletter;
